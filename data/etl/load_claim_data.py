@@ -9,7 +9,7 @@ spark = SparkSession.builder \
 # configure variables
 BUCKET_NAME = "akash-33"
 CLAIMS_BUCKET_PATH = f"gs://{BUCKET_NAME}/landing/claims/*.csv"
-BQ_TABLE = "proven-arcade-487516-t0.Bronze_dataset.claims"
+BQ_TABLE = "proven-arcade-487516-t0.bronze_dataset.claims"
 TEMP_GCS_BUCKET = f"{BUCKET_NAME}/temp/"
 
 # read from claims source
